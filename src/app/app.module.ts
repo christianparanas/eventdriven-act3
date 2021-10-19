@@ -8,7 +8,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
-import { NavComponent } from './components/nav/nav.component';
 
 // material modules
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -26,7 +25,6 @@ import { MatChipsModule } from '@angular/material/chips';
     HomeComponent,
     ContactComponent,
     GalleryComponent,
-    NavComponent,
   ],
   imports: [
     BrowserModule,
